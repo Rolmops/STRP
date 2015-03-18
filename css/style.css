@@ -158,11 +158,17 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 }
 .caption p {
 	margin-bottom: 25px;
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: lighter;
-	
+	text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 	color: #fff;
+	letter-spacing: 10px;
+}
+
+.none{
+	text-transform: none!important;
+	letter-spacing: normal!important;
 }
 
 /* ==========================================================================
@@ -192,7 +198,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 	color: #fff;
 }
 .screen-start .caption .btn {
-	font-size: 36px;
+	/*font-size: 36px;*/
 }
 
 /* ==========================================================================
@@ -328,7 +334,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 }
 .screen-choice .sub .slides > li .image {
 	position: absolute;
-	top: 500px;
+	top: 650px;
 	left: 50%;
 	margin-left: -185px;
 	height: 370px;
@@ -550,7 +556,6 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 .content img, .content iframe { border: none;}
 .content img { max-width: 100%; height: auto;}
 
-
 /* ==========================================================================
    images
    ========================================================================== */
@@ -611,6 +616,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 	font-size: 26px!important;
 	font-family: 'baron'!important;
 	font-weight: lighter!important;
+	text-transform: none;
 }
 
 
