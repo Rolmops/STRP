@@ -8,7 +8,7 @@ body {
 	height: 100%;
     color: #fff;
 	font-size: 14px;
-	line-height: 1.42857;
+	line-height: 1.5;
    /* font-family: 'baron';	*/
 	background-image: url(../images/achtergrond.jpg);
 	background-position: center center;
@@ -17,6 +17,7 @@ body {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	font-weight: 200;
 	/*overflow: hidden;*/
 	
 	
@@ -57,6 +58,8 @@ user-select:none;*/
     font-style: normal;
 
 }
+
+
 
 /* ==========================================================================
    base
@@ -463,11 +466,12 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 .Nebula-logo {
 	width: 300px;
 	height: 200px;
-	background-image: url(../images/logonebula2.png);
+	background-image: url(../images/logonebula.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin: 0 auto;
+	margin-bottom: 40px;
 
 }
 
@@ -576,7 +580,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 
 .btn {
 	display: inline-block;
-	padding: 30px 100px;
+	padding: 50px;
 	
 	color: #fff;
 	line-height: 20px;
@@ -594,8 +598,6 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 .btn-block {
 	display: block;
 	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
 }
 
 /* Size */
@@ -605,7 +607,8 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 
 /* BTN style */
 .btn-text{
-	letter-spacing: 4px;
+	letter-spacing: 12px;
+	font-size: 26px!important;
 	font-family: 'baron'!important;
 	font-weight: lighter!important;
 }
