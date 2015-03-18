@@ -88,7 +88,7 @@ h4,
 h5, 
 h6 {
 	color: #fff; 
-	font-weight: normal; 
+	font-weight: lighter; 
 	line-height: 1.5; 
 	margin: 0;
 }
@@ -152,8 +152,8 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 	text-align: center;	
 }
 .caption h2 {
-	margin-bottom: 25px;
-	font-size: 50px;
+	margin-bottom: 25px;/*
+	font-size: 50px;*/
 	color: #fff;
 }
 .caption p {
@@ -279,7 +279,9 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 }
 .screen-choice .main .progress .caption h2 {
 	font-size: 28px;
-	font-weight: lighter;
+    font-family: 'baron';
+	color: #fff;
+	letter-spacing: 10px;
 }
 .screen-choice .main .progress ul {
 	position: relative;
