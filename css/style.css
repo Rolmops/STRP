@@ -175,6 +175,25 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 	letter-spacing: normal!important;
 }
 
+.title{
+	margin-bottom: 25px;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: none;
+    font-family: 'baron';
+	color: #fff;
+	letter-spacing: 10px;
+}
+
+.quote{
+	margin-bottom: 25px;
+	font-size: 25px;
+	font-weight: lighter;
+	text-transform: uppercase;
+    font-family: 'Open Sans';
+	color: #fff;
+	letter-spacing: normal;
+}
 /* ==========================================================================
    screen-start
    ========================================================================== */
