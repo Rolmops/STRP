@@ -1,5 +1,5 @@
 /* ==========================================================================
-   body blieb
+   body
    ========================================================================== */
 
 body {
@@ -8,7 +8,7 @@ body {
 	height: 100%;
     color: #fff;
 	font-size: 14px;
-	line-height: 1.42857;
+	line-height: 1.5;
    /* font-family: 'baron';	*/
 	background-image: url(../images/achtergrond.jpg);
 	background-position: center center;
@@ -17,6 +17,7 @@ body {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	font-weight: 200;
 	/*overflow: hidden;*/
 	
 	
@@ -57,6 +58,8 @@ user-select:none;*/
     font-style: normal;
 
 }
+
+
 
 /* ==========================================================================
    base
@@ -103,6 +106,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 
 #hb {
   font-size: 30px;
+  margin-top: 35px;
 }
 
 /* ==========================================================================
@@ -154,11 +158,17 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 }
 .caption p {
 	margin-bottom: 25px;
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: lighter;
-	
+	text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 	color: #fff;
+	letter-spacing: 10px;
+}
+
+.none{
+	text-transform: none!important;
+	letter-spacing: normal!important;
 }
 
 /* ==========================================================================
@@ -188,7 +198,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 	color: #fff;
 }
 .screen-start .caption .btn {
-	font-size: 36px;
+	/*font-size: 36px;*/
 }
 
 /* ==========================================================================
@@ -211,17 +221,19 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 
 .screen-choice .main .sensor-data {
 	position: absolute;
-	top: 950px;
-	width: 100%;
+	top: 650px;
+	left: 50%;
+	margin-left: -300px;
+	width: 600px;
+	
 	opacity: 0;
 	text-align: center;
 }
-.column-right{float: right; width: 33%;}
 
 .screen-choice .main .sensor-data .colors { padding-top: 30px; } 
 .screen-choice .main .sensor-data .colors .row {
 	display: table;
-	margin: 10px 20px;
+	margin: 35px auto;
 }
 .screen-choice .main .sensor-data .colors .row .color {
 	width: 150px;
@@ -234,8 +246,8 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 }
 
 .screen-choice .main .sensor-data .hartje{
-	width: 80%;
-	height: 350px;
+	width: 150px;
+	height: 200px;
 	
  	background-image: url(../images/hartjebons.gif);
 	background-size: 100% auto;
@@ -246,18 +258,17 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 
 /* Visual */
 .screen-choice .main .visual {
-	background-color:#666;
-	height:382px;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	bottom: 200px;
 }
-.column-center{ display: inline-block; width: 33%; }
 .screen-choice .main .visual canvas {
 	position: relative;
 	width: 500px !important;
 	height: auto !important;
 	margin: 0 auto;
 }
-
-.column-left{ float: left; width: 33%; }
 
 /* Progress */
 .screen-choice .main .progress {
@@ -325,7 +336,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 }
 .screen-choice .sub .slides > li .image {
 	position: absolute;
-	top: 500px;
+	top: 650px;
 	left: 50%;
 	margin-left: -185px;
 	height: 370px;
@@ -463,11 +474,12 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 .Nebula-logo {
 	width: 300px;
 	height: 200px;
-	background-image: url(../images/logonebula2.png);
+	background-image: url(../images/logonebula.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin: 0 auto;
+	margin-bottom: 40px;
 
 }
 
@@ -546,7 +558,6 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 .content img, .content iframe { border: none;}
 .content img { max-width: 100%; height: auto;}
 
-
 /* ==========================================================================
    images
    ========================================================================== */
@@ -576,7 +587,7 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 
 .btn {
 	display: inline-block;
-	padding: 30px 100px;
+	padding: 50px;
 	
 	color: #fff;
 	line-height: 20px;
@@ -594,8 +605,6 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 .btn-block {
 	display: block;
 	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
 }
 
 /* Size */
@@ -605,9 +614,11 @@ hr { height: 0; border: 0; border-top: 1px solid #ccc;}
 
 /* BTN style */
 .btn-text{
-	letter-spacing: 4px;
+	letter-spacing: 12px;
+	font-size: 26px!important;
 	font-family: 'baron'!important;
 	font-weight: lighter!important;
+	text-transform: none;
 }
 
 
